@@ -276,23 +276,12 @@ module.exports = (async () => {
 
         head: [
             ...base.head,
-            ['link', { rel: "shortcut icon", href: "/shuttle-esb/favicon.ico" }]
+            ['link', { rel: "shortcut icon", href: "/shuttle-esb-v12/favicon.ico" }]
         ],
 
         themeConfig: {
-            algolia: {
-                indexName: 'shuttle-esb',
-                appId: 'VM33RJ87BH',
-                apiKey: 'fc560606a3c14b173d0ddf57a3258c84'
-            },
-
-            // carbonAds: {
-            //     code: '',
-            //     placement: ''
-            // },
-
             socialLinks: [
-                { icon: 'github', link: 'https://github.com/Shuttle/shuttle-esb' },
+                { icon: 'github', link: 'https://github.com/Shuttle/shuttle-esb-v12' },
                 // { icon: 'twitter', link: '' },
                 // { icon: 'discord', link: '' }
             ],
