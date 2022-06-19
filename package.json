@@ -1,0 +1,34 @@
+{
+    "name": "shuttle-esb",
+    "version": "1.0.0",
+    "description": "Documentation for the Shuttle.Esb free open-source .NET enterprise service bus.",
+    "scripts": {
+        "dev": "vitepress dev src",
+        "build": "vitepress build src",
+        "serve": "vitepress serve src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shuttle/shuttle-esb.git"
+    },
+    "keywords": [
+        "shuttle",
+        "design-system"
+    ],
+    "author": "Eben Roux",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Shuttle/shuttle-esb/issues"
+    },
+    "homepage": "https://github.com/Shuttle/shuttle-esb#readme",
+    "devDependencies": {
+        "@types/markdown-it": "^12.2.3",
+        "@types/node": "^16.9.1"
+    },
+    "dependencies": {
+        "@vueuse/core": "^8.0.1",
+        "normalize.css": "^8.0.1",
+        "shuttle-theme": "^1.0.10",
+        "vitepress": "^0.22.3"
+    }
+}
