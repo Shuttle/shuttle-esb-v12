@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Shuttle/shuttle-esb.git"
+        "url": "git+https://github.com/Shuttle/shuttle-esb-v12.git"
     },
     "keywords": [
         "shuttle",
@@ -18,9 +18,9 @@
     "author": "Eben Roux",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Shuttle/shuttle-esb/issues"
+        "url": "https://github.com/Shuttle/shuttle-esb-v12/issues"
     },
-    "homepage": "https://github.com/Shuttle/shuttle-esb#readme",
+    "homepage": "https://github.com/Shuttle/shuttle-esb-v12#readme",
     "devDependencies": {
         "@types/markdown-it": "^12.2.3",
         "@types/node": "^16.9.1"
